@@ -63,7 +63,6 @@ func topFailingTestsRows(topFailingTests, allTests []sippyprocessingv1.FailingTe
 		<tr>
 			<td>
 				%s
-				<p/>
 				<button class="btn btn-primary btn-sm py-0" style="font-size: 0.8em" type="button" data-toggle="collapse" data-target=".%[2]s" aria-expanded="false" aria-controls="%[2]s">Expand Failing Jobs</button>
 			</td>
 			<td>%s</td><td>%0.2f%% <span class="text-nowrap">(%d runs)</span></td><td>%s</td><td>%0.2f%% <span class="text-nowrap">(%d runs)</span></td>
@@ -73,7 +72,6 @@ func topFailingTestsRows(topFailingTests, allTests []sippyprocessingv1.FailingTe
 		<tr>
 			<td>
 				%s
-				<p/>
 				<button class="btn btn-primary btn-sm py-0" style="font-size: 0.8em" type="button" data-toggle="collapse" data-target=".%[2]s" aria-expanded="false" aria-controls="%[2]s">Expand Failing Jobs</button>
 			</td>
 			<td>%s</td><td>%0.2f%% <span class="text-nowrap">(%d runs)</span></td><td/><td>NA</td>

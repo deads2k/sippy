@@ -73,7 +73,6 @@ func (b *jobResultRenderBuilder) toHTML() string {
 			<tr class="%s">
 				<td style="padding-left:%dpx">
 					<a target="_blank" href="%s">%s</a>
-					<p>
 					<button class="btn btn-primary btn-sm py-0" style="font-size: 0.8em" type="button" data-toggle="collapse" data-target=".%[5]s" aria-expanded="false" aria-controls="%[5]s">Expand Failing Tests</button>
 				</td>
 				<td>
@@ -92,7 +91,6 @@ func (b *jobResultRenderBuilder) toHTML() string {
 			<tr class="%s">
 				<td style="padding-left:%dpx">
 					<a target="_blank" href="%s">%s</a>
-					<p>
 					<button class="btn btn-primary btn-sm py-0" style="font-size: 0.8em" type="button" data-toggle="collapse" data-target=".%[5]s" aria-expanded="false" aria-controls="%[5]s">Expand Failing Tests</button>
 				</td>
 				<td>
